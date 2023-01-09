@@ -1,0 +1,27 @@
+.new {
+  width: 100%;
+  display: flex;
+  .newContainer {
+    flex: 6;
+    .top, .botom{
+      -webkit-box-shadow: 5px 6px 10px 2px hsl(0, 12%, 92%);
+    box-shadow: 5px 6px 10px 2px #ede6e6;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+
+    h1{
+      color: lightgray;
+      font-size: 20px;
+    }
+    .left{
+      flex: 1;
+    }
+    .right{
+      flex: 2;
+    }
+  }
+
+  
+  }
+}
